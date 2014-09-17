@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1A1F3019C8B7020043F75B /* IntroToComputerScienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1F2F19C8B7020043F75B /* IntroToComputerScienceTests.swift */; };
+		DB1A1F4419C8BB090043F75B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1F4319C8BB090043F75B /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1A1F2A19C8B7020043F75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1A1F0C19C8B7020043F75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1A1F1319C8B7020043F75B;
+			remoteInfo = IntroToComputerScience;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1A1F1419C8B7020043F75B /* IntroToComputerScience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToComputerScience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A1F1819C8B7020043F75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1A1F2919C8B7020043F75B /* IntroToComputerScienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroToComputerScienceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A1F2E19C8B7020043F75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1A1F2F19C8B7020043F75B /* IntroToComputerScienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroToComputerScienceTests.swift; sourceTree = "<group>"; };
+		DB1A1F4219C8BB090043F75B /* IntroToComputerScience-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntroToComputerScience-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB1A1F4319C8BB090043F75B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1A1F1119C8B7020043F75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A1F2619C8B7020043F75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1A1F0B19C8B7020043F75B = {
+			isa = PBXGroup;
+			children = (
+				DB1A1F4319C8BB090043F75B /* main.swift */,
+				DB1A1F1619C8B7020043F75B /* IntroToComputerScience */,
+				DB1A1F2C19C8B7020043F75B /* IntroToComputerScienceTests */,
+				DB1A1F1519C8B7020043F75B /* Products */,
+				DB1A1F4219C8BB090043F75B /* IntroToComputerScience-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1A1F1519C8B7020043F75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1F1419C8B7020043F75B /* IntroToComputerScience.app */,
+				DB1A1F2919C8B7020043F75B /* IntroToComputerScienceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1A1F1619C8B7020043F75B /* IntroToComputerScience */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1F1719C8B7020043F75B /* Supporting Files */,
+			);
+			path = IntroToComputerScience;
+			sourceTree = "<group>";
+		};
+		DB1A1F1719C8B7020043F75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1F1819C8B7020043F75B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1A1F2C19C8B7020043F75B /* IntroToComputerScienceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1F2F19C8B7020043F75B /* IntroToComputerScienceTests.swift */,
+				DB1A1F2D19C8B7020043F75B /* Supporting Files */,
+			);
+			path = IntroToComputerScienceTests;
+			sourceTree = "<group>";
+		};
+		DB1A1F2D19C8B7020043F75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1F2E19C8B7020043F75B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1A1F1319C8B7020043F75B /* IntroToComputerScience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A1F3319C8B7020043F75B /* Build configuration list for PBXNativeTarget "IntroToComputerScience" */;
+			buildPhases = (
+				DB1A1F1019C8B7020043F75B /* Sources */,
+				DB1A1F1119C8B7020043F75B /* Frameworks */,
+				DB1A1F1219C8B7020043F75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntroToComputerScience;
+			productName = IntroToComputerScience;
+			productReference = DB1A1F1419C8B7020043F75B /* IntroToComputerScience.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1A1F2819C8B7020043F75B /* IntroToComputerScienceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A1F3619C8B7020043F75B /* Build configuration list for PBXNativeTarget "IntroToComputerScienceTests" */;
+			buildPhases = (
+				DB1A1F2519C8B7020043F75B /* Sources */,
+				DB1A1F2619C8B7020043F75B /* Frameworks */,
+				DB1A1F2719C8B7020043F75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1A1F2B19C8B7020043F75B /* PBXTargetDependency */,
+			);
+			name = IntroToComputerScienceTests;
+			productName = IntroToComputerScienceTests;
+			productReference = DB1A1F2919C8B7020043F75B /* IntroToComputerScienceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1A1F0C19C8B7020043F75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = America;
+				TargetAttributes = {
+					DB1A1F1319C8B7020043F75B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DB1A1F2819C8B7020043F75B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DB1A1F1319C8B7020043F75B;
+					};
+				};
+			};
+			buildConfigurationList = DB1A1F0F19C8B7020043F75B /* Build configuration list for PBXProject "IntroToComputerScience" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1A1F0B19C8B7020043F75B;
+			productRefGroup = DB1A1F1519C8B7020043F75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1A1F1319C8B7020043F75B /* IntroToComputerScience */,
+				DB1A1F2819C8B7020043F75B /* IntroToComputerScienceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1A1F1219C8B7020043F75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A1F2719C8B7020043F75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1A1F1019C8B7020043F75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A1F4419C8BB090043F75B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A1F2519C8B7020043F75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A1F3019C8B7020043F75B /* IntroToComputerScienceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1A1F2B19C8B7020043F75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1A1F1319C8B7020043F75B /* IntroToComputerScience */;
+			targetProxy = DB1A1F2A19C8B7020043F75B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB1A1F3119C8B7020043F75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1A1F3219C8B7020043F75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1A1F3419C8B7020043F75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = IntroToComputerScience/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntroToComputerScience-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1A1F3519C8B7020043F75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = IntroToComputerScience/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntroToComputerScience-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DB1A1F3719C8B7020043F75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IntroToComputerScienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntroToComputerScience.app/IntroToComputerScience";
+			};
+			name = Debug;
+		};
+		DB1A1F3819C8B7020043F75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IntroToComputerScienceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntroToComputerScience.app/IntroToComputerScience";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1A1F0F19C8B7020043F75B /* Build configuration list for PBXProject "IntroToComputerScience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A1F3119C8B7020043F75B /* Debug */,
+				DB1A1F3219C8B7020043F75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A1F3319C8B7020043F75B /* Build configuration list for PBXNativeTarget "IntroToComputerScience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A1F3419C8B7020043F75B /* Debug */,
+				DB1A1F3519C8B7020043F75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A1F3619C8B7020043F75B /* Build configuration list for PBXNativeTarget "IntroToComputerScienceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A1F3719C8B7020043F75B /* Debug */,
+				DB1A1F3819C8B7020043F75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1A1F0C19C8B7020043F75B /* Project object */;
+}
